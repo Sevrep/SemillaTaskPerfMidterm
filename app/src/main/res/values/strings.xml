@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">G2 CASH APP</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="cash_app">...cash app</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="setting">Setting</string>
+</resources>

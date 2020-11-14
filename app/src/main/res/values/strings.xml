@@ -8,4 +8,10 @@
     <string name="home">Home</string>
     <string name="history">History</string>
     <string name="setting">Setting</string>
+    <string name="scan">Scan</string>
+    <string name="load_wallet">Load Wallet</string>
+    <string name="php_200_00">Php 200.00</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="send">Send</string>
+    <string name="withdraw">Withdraw</string>
 </resources>

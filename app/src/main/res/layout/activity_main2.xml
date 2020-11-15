@@ -72,7 +72,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:rowCount="2">
 
-        <!-- 1 -->
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -88,10 +87,10 @@
             app:layout_rowWeight="1">
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="18dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_gravity="top|center"
+                android:layout_marginTop="16dp"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/ic_baseline_qr_code_scanner_24" />
 
@@ -99,13 +98,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/scan"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
         </androidx.cardview.widget.CardView>
 
-        <!-- 2 -->
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -121,10 +119,10 @@
             app:layout_rowWeight="1">
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_gravity="top|center"
+                android:layout_marginTop="16dp"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/ic_baseline_account_balance_wallet_24" />
 
@@ -132,13 +130,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/load_wallet"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
         </androidx.cardview.widget.CardView>
 
-        <!-- 3 -->
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -154,10 +151,10 @@
             app:layout_rowWeight="1">
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_gravity="top|center"
+                android:layout_marginTop="16dp"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/ic_baseline_send_24" />
 
@@ -165,13 +162,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/send"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
         </androidx.cardview.widget.CardView>
 
-        <!-- 4 -->
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -187,10 +183,10 @@
             app:layout_rowWeight="1">
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_gravity="top|center"
+                android:layout_marginTop="16dp"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/ic_baseline_assignment_returned_24" />
 
@@ -198,7 +194,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/withdraw"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
